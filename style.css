@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: #010d21;
+    justify-content: space-between;
+    height: 68px;
+    width: 100%;
+    position: fixed;
+    
+}
+.logo img{
+    width: 120px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.logo{
+    width: 25%;
+    float: left;
+}
+.navigation{
+    width: 75%;
+    margin-top: 5px;
+    float: left;
+    cursor: pointer;
+    display: flex;
+}
+.navigation ul{
+    display: flex;
+    font-size: 100%;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.navigation li{
+    list-style-type: none;
+    padding-right: 40px;
+    font-family: 'meriveregular', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation li:hover{
+    color: red;
+}
+.image{
+    display: block;
+    max-width: 100%;
+    height:auto;
+}
+.left-side{
+    background-color: black;
+    width: 50%;
+    height: 941px;
+    float: left;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.imagerespons img{
+    margin-top:370px ;
+    margin-left: 50px ;
+    width: 500px;
+}
+.imagerespons h1{
+    margin-top: -177px;
+    margin-left: 110px;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-family: "EksellDisplayWeb-Small";
+    text-align: center;
+}
+.right-side{
+    width: 50%;
+    background-color: white;
+    height: auto;
+    float: left;
+}
+.right-side p{
+    margin-left: 119px;
+    font-size: 22.5px;
+    font-family: 400;
+    line-height: 1.27;
+    font-family: sans-serif;
+}
+#first-para{
+    margin-top:145px ;
+}
+.media{
+     margin-left:119px ;
+     cursor: pointer;
+}
+.right-side img{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color:white ;
+    height: 250px;
+    font-size: 14px;
+    font-family: "merivaregular";
+    font-weight: 300;
+    float: left;
+}
+.left-footer{
+    width: 30%;
+    float: left;
+    padding-left: 65px;
+    padding-top: 30px;
+}
+.middle-footer{
+    width: 30%;
+    float: left;
+    padding-top: 30px;
+}
+.right-footer{
+    width: 30%;
+    float: left;
+    padding-top: 30px;
+}
+.medialink{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 6px 6px;
+}
+.Dark{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    line-height: 0.7;
+    cursor: pointer;
+}
+.Dark:hover,.medialink:hover{
+    color:red ;
+    text-decoration: underline red;
+}
